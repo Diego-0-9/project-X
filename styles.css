@@ -1,0 +1,92 @@
+* 
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body 
+{  
+    font-family: monospace; 
+    background-color: #0668c436; 
+    padding: 20px;
+}
+
+
+.container 
+{    border: 5px double rgb(107, 123, 177);
+    
+    max-width: 500px; 
+    margin: 0 auto; 
+    background-color: #80a6d1; 
+    padding: 20px; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+h1 
+{
+    text-align: center; 
+    margin-bottom: 20px; 
+    color: #333; 
+}
+
+form 
+{  
+    display: flex; 
+    flex-direction: column; 
+}
+
+label 
+{   
+    font-size:16px ;
+    margin-bottom: 5px; 
+    padding: 5px;
+    font-weight: bold; 
+    color: #555; 
+}
+
+input[type="text"], textarea, select 
+{ 
+    width: 100%; 
+    padding: 10px; 
+    margin-bottom: 15px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+}
+
+input[type="radio"], input[type="checkbox"] 
+{
+    margin-right: 10px; 
+}
+
+fieldset 
+{   font-size:16px ;
+    margin-bottom: 15px; 
+    border: 1px solid #ccc;
+    border-radius: 4px; 
+    padding: 10px; 
+}
+
+legend 
+{
+    font-weight: bold; 
+    color: #333; 
+}
+
+button 
+{
+    background-color: #007BFF;
+    color: #ff0000; 
+    padding: 10px; 
+    border: none; 
+    border-radius: 4px; 
+    cursor: pointer; 
+    font-size: 16px; 
+}
+
+button:hover 
+{
+    background-color: #0056b3; 
+}

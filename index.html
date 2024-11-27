@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario </title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body><div class="container">
+    <h1>Formulario</h1>
+    <form action="/submit" method="POST">
+        
+        <label  style="color: black;" for="name=">Nombre:</label> 
+              <input type="text" id="nombre" name="nombre" placeholder="Escriba su nombre aqui">
+        
+        <br><br>
+
+        <label style="color: black;" for="mensaje">Mensaje:</label>
+        
+        <textarea id="mensaje" name="mensaje" rows="5" placeholder="Escribe tu mensaje aquí"></textarea> 
+
+        <br> <br>
+       
+     <fieldset> 
+        <legend style="color: black;" >Género:</legend>
+       <input type="radio" id="masculino" name="genero" value="masculino" required>Masculino
+        <input type="radio" id="Femenino" name="genero" value="femenino" required>femenino
+    </fieldset>
+
+        <br> <br>
+        
+    <fieldset> 
+        <legend style="color: black;">Intereses:</legend>
+        <input type="checkbox" id="Deporte" name="Intereses" value="Deporte" required>Deporte
+        <input type="checkbox" id="Musica" name="Intereses" value="Musica" required>Musica
+        <input type="checkbox" id="Tecnologia" name="Intereses" value="Tecnologia" required>Tecnologia
+    </fieldset>
+        
+        <br><br>
+    
+        <label style="color: black;" for="pais">País:</label> 
+
+            
+            <select id="pais" name="pais">  
+                <option value="mexico">México</option>             
+                <option value="espana">España</option>             
+                <option value="argentina">Argentina</option>       
+                <option value="colombia">Colombia</option>         
+            </select>
+            
+
+
+        <input type="submit" value="Enviar">
+    </form>
+        
+        
+</div>
+
+   
+
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+    
+</body>
+</html>
